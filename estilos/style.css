@@ -1,0 +1,154 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap');
+
+:root {
+	/*cores*/
+	--gelo: #F0EBF2;
+	--roxo: #704BBF;
+	--azul: #7D5CF2;
+	--petroleo: #383E40;
+	--mostarda: #D5D973;
+	/*fontes*/
+	--titulos: 'Ubuntu', sans-serif;
+	--textos: 'Roboto Mono', monospace;
+	
+}
+
+* {
+	font-family: var(--textos);
+	margin: 0px;
+	padding: 0px;
+}
+
+body, html {
+	background-color: var(--gelo);
+	height: 100vh;
+	width: 100vw;
+}
+
+header {
+	position: relative;
+	height: 250px;
+	background: var(--roxo) url('../images/banner01.png') no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.cabecalho {
+	text-align: center;
+	background-color: #ffffff83;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#menu {
+	display: inline-block;
+	width: 100vw;
+	padding: 10px 0px;
+	background-color: var(--petroleo);
+}
+
+#menu > a {
+	color: var(--mostarda);
+	display: inline-block;
+	list-style-type: none;
+	margin-left: 15px;
+	padding: 0px 10px;
+	text-decoration: none;
+	font-weight: bolder;
+	transition-duration: .8s;
+}
+
+#menu > a:hover {
+	border: 2px solid var(--mostarda);
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.tendencias {
+	text-align: center;
+	border-radius: 15px;
+}
+
+.tendencias > h2 {
+	font-size: 3em;
+	font-family: var(--titulos);
+	text-align: left;
+	padding: 10px;
+}
+
+.tendencias > h3 {
+	font-family: var(--titulos);
+	font-size: 1.5em;
+	color: #000000bd;
+	text-align: left;
+	padding: 10px;
+	font-weight: normal;
+}
+
+.tendencias > div {
+	text-align: center;
+	display: inline-block;
+	padding: 10px;
+	width: 200px;
+	margin-top: 5px;
+	width: 90vw;
+
+}
+
+.tendencias p {
+	margin-top: 5px;
+	text-align: justify;
+	font-weight: normal;
+	text-indent: 25px;
+}
+
+#imagem {
+	display: block;
+	margin: 10px;
+	background: var(--azul) url('../images/tendencias-2022.jpg') no-repeat;
+	background-size: cover;
+	background-position: bottom center;
+	height: 200px;
+	border: 3px solid var(--mostarda);
+	border-radius: 15px;
+	margin: auto;
+}
+
+#modelos {
+	display: inline-block;
+	border: 2px solid var(--mostarda);
+	background-color: var(--petroleo);
+	color: white;
+	text-align: left;
+	border-radius: 20px;
+	padding: 10px 50px;
+	margin-top: 20px;
+}
+
+#modelos > li > a {
+	text-decoration: none;
+	font-weight: bold;
+	color: var(--mostarda);
+}
+
+footer {
+	background-color: var(--petroleo);
+	text-align: center;
+	padding: 10px 0px;
+	bottom: 0px;
+	width: 100vw;
+
+}
+
+footer > p {
+	color: white;
+}
+
+footer > p > a {
+	color: var(--mostarda);
+	text-decoration: none;
+}

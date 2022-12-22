@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	
+}
+
+@media screen and (min-width: 992px) {
+	
+	#menu > a {
+		font-size: 2em;
+	}
+	
+	.tendencias > h2 {
+		font-size: 5em;
+	}
+	
+	.tendencias > h3 {
+		font-size: 2.5em;
+	}
+	
+	.tendencias p {
+		font-size: 2em;
+	}
+	
+	#modelos {
+		margin: auto;
+		display: block;
+		width: 70vw;
+	}
+
+	#modelos > li > a {
+		font-size: 1.5em;
+	}
+}
