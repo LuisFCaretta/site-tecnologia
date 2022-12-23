@@ -7,19 +7,19 @@
 @media screen and (min-width: 992px) {
 	
 	#menu > a {
-		font-size: 2em;
+		font-size: 1.5em;
 	}
 	
 	.tendencias > h2 {
-		font-size: 5em;
+		font-size: 3.5em;
 	}
 	
 	.tendencias h3 {
-		font-size: 3em;
+		font-size: 2em;
 	}
 	
 	.tendencias p {
-		font-size: 2em;
+		font-size: 1em;
 	}
 	
 	#modelos {
@@ -29,6 +29,6 @@
 	}
 
 	#modelos > li > a {
-		font-size: 1.5em;
+		font-size: 1.2em;
 	}
 }
